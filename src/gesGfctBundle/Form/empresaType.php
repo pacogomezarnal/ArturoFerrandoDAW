@@ -21,7 +21,7 @@ class empresaType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-            ->add('nombre',TextType::class,array('label'=>'Nombre Empresa: ',
+            ->add('nombre',TextType::class,array('label'=>'Nombre Empresa:  ',
             'label_attr'=>array('class'=>'labelEmp'),
             'attr'=>array('class'=>'nomEmp')))
 

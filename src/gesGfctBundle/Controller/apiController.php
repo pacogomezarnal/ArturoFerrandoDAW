@@ -25,7 +25,7 @@ return array(
 public function empresasAction()
 {
   $repository = $this->getDoctrine()->getRepository('gesGfctBundle:empresa');
-  $empresas = $repository->findAll();
+  $empresas = $repository->findAll() ;
 
 
   //var_dump($empresas);

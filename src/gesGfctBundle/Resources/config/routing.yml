@@ -15,5 +15,5 @@ all_alumno:
     defaults: { _controller: gesGfctBundle:alumno:all }
 api:
     path:    /empresa
-    defaults: { _controller: gesGfctBundle:api:empresas }
+    defaults: { _controller: gesGfctBundle:api:empresas}
     methods: [GET]
