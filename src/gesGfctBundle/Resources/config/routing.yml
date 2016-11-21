@@ -20,3 +20,13 @@ api:
 all_profesores:
     path:   /profesores/all
     defaults: {_controller: gesGfctBundle:profesores:all}
+new_profesor:
+    path:     /profesores/new
+    defaults: { _controller: gesGfctBundle:profesores:newProfesores }
+exito_profesor:
+    path:     /profesor/msgExito
+    defaults: { _controller: gesGfctBundle:profesor:msgExito }
+api:
+    path:    /profesores
+    defaults: { _controller: gesGfctBundle:apiProfesores:profesores}
+    methods: [GET]
