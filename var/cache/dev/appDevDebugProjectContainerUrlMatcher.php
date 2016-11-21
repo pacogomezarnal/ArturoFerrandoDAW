@@ -139,6 +139,11 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
         }
         not_api:
 
+        // all_profesores
+        if ($pathinfo === '/profesores/all') {
+            return array (  '_controller' => 'gesGfctBundle\\Controller\\profesoresController::allAction',  '_route' => 'all_profesores',);
+        }
+
         // homepage
         if (rtrim($pathinfo, '/') === '') {
             if (substr($pathinfo, -1) !== '/') {

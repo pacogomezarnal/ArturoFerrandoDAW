@@ -17,3 +17,6 @@ api:
     path:    /empresa
     defaults: { _controller: gesGfctBundle:api:empresas}
     methods: [GET]
+all_profesores:
+    path:   /profesores/all
+    defaults: {_controller: gesGfctBundle:profesores:all}

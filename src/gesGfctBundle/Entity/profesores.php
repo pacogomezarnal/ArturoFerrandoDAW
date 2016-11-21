@@ -125,4 +125,3 @@ class profesores
         return $this->departamento;
     }
 }
-
